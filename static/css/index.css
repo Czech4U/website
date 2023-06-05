@@ -11,7 +11,7 @@
     --light-red: rgba(0,0,0,0);
     --light-blue: rgba(0,0,0,0);
     --font-title: 'Londrina Shadow', cursive;
-    --font-heading: 'Monserrat';
+    --font-heading: 'Londrina Shadow', cursive;
     --font-subheading: 'Monserrat';
     --font-content: 'Arial'; 
     --font-lorem: 'Flow Circular', cursive;
@@ -133,15 +133,15 @@ section h2 {
     font-family: var(--font-heading);
 }
 
-img-txt, txt-img {
+.img-txt, .txt-img {
     display: flex;
 }
 
-img-txt {
+.img-txt {
     flex-direction: row;
 }
 
-txt-img {
+.txt-img {
     flex-direction: row-reverse;
 }
 
