@@ -47,7 +47,7 @@ body {
     background-color: #f5f5f5;
 
     box-shadow: 0px 0px 10px 0px dimgray;
-    background-image: linear-gradient(0deg, #11457E 33.33%, #D7141A 33.33%, #D7141A 66.66%, #FFFFFF 66.66%, #FFFFFF 95%); /* , #000000 5% */
+    background-image: linear-gradient(0deg, #11457E 33.33%, #D7141A 33.33%, #D7141A 66.66%, #FFFFFF 66.66%, #FFFFFF 95%) !important; /* , #000000 5% */
 }
 
 .footer span {
@@ -80,8 +80,8 @@ body {
     //font-family: 'Open Sans', sans-serif;
     font-family: 'Montserrat', sans-serif;
     padding: 150px 0px 120px 0px;
-    background: var(--img-cover);
-    background-size: cover;
+    //background: var(--img-cover);
+    //background-size: cover;
 }
 
 #title {
