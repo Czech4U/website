@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Montserrat:wght@100;200;300;400&family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400;700;800&family=Bungee+Inline&family=Cabin+Sketch:wght@400;700&family=Chokokutai&family=Fascinate+Inline&family=Finger+Paint&family=Fredericka+the+Great&family=Kranky&family=Libre+Barcode+39&family=Libre+Barcode+39+Text&family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&family=Monoton&family=Montserrat+Subrayada:wght@400;700&family=Ribeye+Marrow&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Dirt&family=Rubik+Distressed&family=Rubik+Gemstones&family=Rubik+Moonrocks&family=Rubik+Puddles&family=Rubik+Storm&family=Rubik+Vinyl&family=Rye&family=Tilt+Prism&family=Train+One&display=swap');
+
+
+:root {
+    --red: rgba(215,20,26,1);
+    --blue: rgba(17,69,126,1);
+    --white: rgba(255,255,255,1);
+    --dark-red: rgba(0,0,0,0);
+    --dark-blue: rgba(0,0,0,0);
+    --light-red: rgba(0,0,0,0);
+    --light-blue: rgba(0,0,0,0);
+    --font-title: 'Londrina Shadow', cursive;
+    --font-heading: 'Monserrat';
+    --font-subheading: 'Monserrat';
+    --font-content: 'Arial'; 
+    --font-lorem: 'Flow Circular', cursive;
+    --img-cover: url("");
+}
+
+body, html {
+    padding: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+    //background: url("https://media.discordapp.net/attachments/1087342206857261076/1104420403818016798/04173e15-0b23-493e-a29c-a9a68f514fe0.jpg?width=1570&height=1046");
+    //background-size: 100%;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+
+    box-shadow: 0px 0px 10px 0px dimgray;
+    background-image: linear-gradient(0deg, #11457E 33.33%, #D7141A 33.33%, #D7141A 66.66%, #FFFFFF 66.66%, #FFFFFF 95%); /* , #000000 5% */
+}
+
+.footer span {
+    display: inline-block;
+    padding: 0 35px;
+    background-color: white;
+}
+
+.bg-gray {
+
+}
+
+.bg-red {
+    color: white;
+    background: var(--red);
+}
+
+.bg-blue {
+    color: white;
+    background: var(--blue);
+}
+
+.navbar {
+    padding: 5px 30px;
+    box-shadow: 0px 0px 10px 0px dimgray;
+}
+
+#header {
+    //font-family: "Lato", sans-serif;
+    //font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    padding: 150px 0px 120px 0px;
+    background: var(--img-cover);
+    background-size: cover;
+}
+
+#title {
+}
+
+#header h1 {
+    font-size: 6rem;
+    font-weight: bolder;
+    //text-shadow: 2px 2px white;
+    color: var(--white);
+    font-family: var(--font-title);
+    //-webkit-text-stroke: 3px white;
+}
+
+section * {
+    margin: 20px;
+    font-family: 'Flow Circular', cursive;
+    //font-family: 'Montserrat', sans-serif;
+}
+
+small {
+    //font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+.test-blue {
+    background: linear-gradient(45deg, #212529FF 33.33%, #212529FF 66.66%, #D7141AFF 33.33%, #D7141AFF 66.66%, #212529FF 33.33%, #212529FF 66.66%, #212529FF);
+    background-image: linear-gradient(45deg, #212529 45.45%, #d7141a 45.45%, #d7141a 50%, #212529 50%, #212529 95.45%, #d7141a 95.45%, #d7141a 100%);
+    background-image: linear-gradient(45deg, #212529 45.45%, #11457e 45.45%, #11457e 50%, #212529 50%, #212529 95.45%, #11457e 95.45%, #11457e 100%);
+    //background-image: linear-gradient(45deg, #212529 45.45%, #ffffff 45.45%, #ffffff 50%, #212529 50%, #212529 95.45%, #ffffff 95.45%, #ffffff 100%);
+}
+
+.test-red {
+    background: linear-gradient(45deg, #212529FF 33.33%, #212529FF 66.66%, #D7141AFF 33.33%, #D7141AFF 66.66%, #212529FF 33.33%, #212529FF 66.66%, #212529FF);
+    background-image: linear-gradient(-45deg, #212529 45.45%, #d7141a 45.45%, #d7141a 50%, #212529 50%, #212529 95.45%, #d7141a 95.45%, #d7141a 100%);
+    //background-image: linear-gradient(-45deg, #212529 45.45%, #11457e 45.45%, #11457e 50%, #212529 50%, #212529 95.45%, #11457e 95.45%, #11457e 100%);
+}
+
+section div:first-of-type {
+    //border-left: 2px solid #D7141AFF;
+}
+
+.test:after {
+    /* other styles */
+    box-shadow: 0 0 0 250px #522d5b;
+}
+
+
+
+/*
+<style>
+ body, html {
+     margin: 0;
+     padding: 0;
+ }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    box-shadow: inset 10px 0 0 0 #FFFFFF, inset 20px 0 0 0 #D7141A, inset 30px 0 0 0 #11457E;
+    //background: rgba(255, 193, 7, 0.5);
+}
+
+#main {
+//box-shadow: inset 10px 0 0 0 #FFFFFF, inset 20px 0 0 0 #D7141A, inset 30px 0 0 0 #11457E;
+
+}
+*/
+
+
+.btn-2 {
+    color: #82f6d8;
+}
+.btn-2:hover {
+    -webkit-animation: stripes-move 5s infinite linear;
+    animation: stripes-move 5s infinite linear;
+    background: repeating-linear-gradient(45deg, #D7141A 0, #D7141A 0.25em, transparent 0.25em, transparent 0.5em);
+    color: #11457E;
+}
+
+@-webkit-keyframes stripes-move {
+    100% {
+        background-position: 5em 0px;
+    }
+}
+
+@keyframes stripes-move {
+    100% {
+        background-position: 5em 0px;
+    }
+}

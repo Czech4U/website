@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Space Mono&family=Nabla&family=Audiowide&family=Exo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400;700;800&family=Bungee+Inline&family=Cabin+Sketch:wght@400;700&family=Chokokutai&family=Fascinate+Inline&family=Finger+Paint&family=Fredericka+the+Great&family=Kranky&family=Libre+Barcode+39&family=Libre+Barcode+39+Text&family=Londrina+Outline&family=Londrina+Shadow&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&family=Monoton&family=Montserrat+Subrayada:wght@400;700&family=Ribeye+Marrow&family=Righteous&family=Rubik+80s+Fade&family=Rubik+Dirt&family=Rubik+Distressed&family=Rubik+Gemstones&family=Rubik+Moonrocks&family=Rubik+Puddles&family=Rubik+Storm&family=Rubik+Vinyl&family=Rye&family=Tilt+Prism&family=Train+One&display=swap');
+
+
+* {
+    font-family: 'October Devanagari';
+    font-family: 'Audiowide', cursive;
+    font-family: 'Orbitron', cursive;
+    font-family: 'Space Mono', cursive;
+    font-family: "Annai MN";
+    font-family: 'Exo', sans-serif;
+
+}
+
+#main_name h1 {
+    font-size: 6vw;
+    font-family: 'Orbitron', cursive;
+    font-family: 'Space Mono', cursive;
+    font-family: "Annai MN";
+    font-family: 'Exo', sans-serif;
+    font-family: 'Nabla', cursive;
+}
+
+font {
+    font-family: 'BioRhyme', serif;
+    font-family: 'Bungee Inline', cursive;
+    font-family: 'Cabin Sketch', cursive;
+    font-family: 'Fascinate Inline', cursive;
+    font-family: 'Finger Paint', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Chokokutai', cursive;
+    font-family: 'Kranky', cursive;
+    font-family: 'Libre Barcode 39', cursive;
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-family: 'Londrina Outline', cursive;
+    font-family: 'Londrina Shadow', cursive;
+    font-family: 'Londrina Sketch', cursive;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Ribeye Marrow', cursive;
+    font-family: 'Righteous', cursive;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-family: 'Rubik Dirt', cursive;
+    font-family: 'Rubik Distressed', cursive;
+    font-family: 'Rubik Gemstones', cursive;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Rubik Puddles', cursive;
+    font-family: 'Rubik Storm', cursive;
+    font-family: 'Rubik Vinyl', cursive;
+    font-family: 'Rye', cursive;
+    font-family: 'Tilt Prism', cursive;
+    font-family: 'Train One', cursive;
+}
