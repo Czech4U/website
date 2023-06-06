@@ -72,7 +72,8 @@ body {
 
 .navbar {
     padding: 5px 30px;
-    box-shadow: 0px 0px 10px 0px dimgray;
+    box-shadow: 0px 0px 10px 0px black;
+    //background: linear-gradient(to right, #212529 92%, var(--white) 2%, var(--white) 94%, var(--red) 2%, var(--red) 96%, var(--blue) 2%, var(--blue) 98%, #212529 2%);
 }
 
 #header {
@@ -84,21 +85,21 @@ body {
     background-size: cover;
 }
 
-#title {
-}
-
 #header h1 {
     font-size: 6rem;
-    font-weight: bolder;
     //text-shadow: 2px 2px white;
     color: var(--white);
     font-family: var(--font-title);
     //-webkit-text-stroke: 3px white;
 }
 
+section {
+    align-items: center !important;
+}
+
 section * {
     margin: 20px;
-    font-family: 'Flow Circular', cursive;
+    //font-family: 'Flow Circular', cursive;
     //font-family: 'Montserrat', sans-serif;
 }
 
@@ -128,6 +129,11 @@ img {
     box-shadow: 0 0 0 250px #522d5b;
 }
 
+section {
+    text-align: justify;
+    text-justify: inter-character;
+    justify-content: space-evenly;
+}
 
 section h2 {
     font-family: var(--font-heading);
@@ -144,6 +150,11 @@ section h2 {
 
 .txt-img {
     flex-direction: row-reverse;
+}
+
+
+.dropdown-menu {
+    border-radius: 0px;
 }
 
 
@@ -189,4 +200,65 @@ body {
     100% {
         background-position: 5em 0px;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    .img-txt {
+        flex-direction: column-reverse;
+    }
+
+    .txt-img {
+        flex-direction: column-reverse;
+    }
+    
+    .img-txt img, .txt-img img {
+        max-width: 100%;
+    }
+
+    #header {
+	font-size: smaller;
+    }
+
+    section {
+	padding: 1rem !important;
+        align-items: stretch !important;
+    }
+
+    section * {
+	margin: 5px;
+    }
+
+    section p {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+  	display:block;
+    	width : 100%; /* this could be defined on any parent */
+    }
+
+
+    section h2 {
+	font-size: 3rem;
+    }
+}
+
+
+.theme-a {
+  background: white;
+  color: #212529;
+}
+@media (prefers-color-scheme: dark) {
+  .theme-a {
+    background: black;
+    color: var(--white);
+  }
+
+  a {
+    color: var(--red)
+  }
+
+  #header {
+    background: url("../img/prague-skyline.jpg");
+    background-size: cover;
+  }
 }
